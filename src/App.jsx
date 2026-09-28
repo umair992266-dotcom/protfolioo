@@ -205,18 +205,17 @@ function Hero() {
           </a>
 
           {/* CV Download */}
-          <a
-            href="https://github.com/umair992266-dotcom/cv/raw/main/Umair_Khan_CV.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-3d btn-cv"
-          >
-            <DownloadIcon />
-            <div className="btn-label">
-              <span className="btn-label-primary">Download CV</span>
-              <span className="btn-label-secondary">// PDF Resume</span>
-            </div>
-          </a>
+       <a 
+  href="/Umair_Khan_CV.pdf" 
+  download="Umair_Khan_CV.pdf" 
+  className="btn-3d btn-cv"
+>
+  <DownloadIcon />
+  <div className="btn-label">
+    <span className="btn-label-primary">Download CV</span>
+    <span className="btn-label-secondary">// PDF Resume</span>
+  </div>
+</a>
         </div>
 
         {/* Bio blurb */}
